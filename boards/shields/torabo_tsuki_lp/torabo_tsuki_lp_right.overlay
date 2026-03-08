@@ -1,10 +1,29 @@
 #include "torabo_tsuki_lp.dtsi"
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
+#include <input/processors/runtime-input-processor.dtsi>
 
 &pointing_listener {
     input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
 };
+
+&trackball_listener {
+    /* 通常時（レイヤー3以外） */
+    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT) &mouse_runtime_input_processor>;
+
+    /* レイヤー3のときだけスクロール用に差し替え */
+    scroller {
+        layers = <3>;
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT) &scroll_runtime_input_processor>;
+    };
+};
+
+&scroll_runtime_input_processor {
+    x-codes = <INPUT_REL_X>;
+    y-codes = <INPUT_REL_Y>;
+    xy-to-scroll-enabled;
+};
+
 
 &size_s_transform {
     col-offset = <7>;
