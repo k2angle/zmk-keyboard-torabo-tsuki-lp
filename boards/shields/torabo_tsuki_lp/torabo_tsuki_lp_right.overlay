@@ -7,6 +7,17 @@
     input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT) &mouse_runtime_input_processor &scroll_runtime_input_processor>;
 };
 
+&trackball_listener {
+    /* 通常時（レイヤー3以外） */
+    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT) &mouse_runtime_input_processor>;
+
+    /* レイヤー3のときだけスクロール用に差し替え */
+    scroller {
+        layers = <3>;
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT) &scroll_runtime_input_processor>;
+    };
+};
+
 &scroll_runtime_input_processor {
         x-codes = <INPUT_REL_X>;
 		y-codes = <INPUT_REL_Y>;
