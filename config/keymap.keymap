@@ -9,6 +9,11 @@
 
         studio_unlock {
             bindings = <&studio_unlock>;
+            key-positions = <44 45>;
+        };
+
+        esk {
+            bindings = <&kp ESCAPE>;
             key-positions = <63 64>;
         };
     };
