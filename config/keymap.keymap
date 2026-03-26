@@ -16,6 +16,21 @@
             bindings = <&kp ESCAPE>;
             key-positions = <63 64>;
         };
+
+        click1 {
+            bindings = <&mkp MB1>;
+            key-positions = <33 34>;
+        };
+
+        click2 {
+            bindings = <&mkp MB2>;
+            key-positions = <35 36>;
+        };
+
+        lang2 {
+            bindings = <&kp LANG2>;
+            key-positions = <28 27>;
+        };
     };
 
     keymap {
