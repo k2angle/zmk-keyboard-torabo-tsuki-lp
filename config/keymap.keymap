@@ -12,7 +12,7 @@
             key-positions = <44 45>;
         };
 
-        esk {
+        esc {
             bindings = <&kp ESCAPE>;
             key-positions = <63 64>;
         };
