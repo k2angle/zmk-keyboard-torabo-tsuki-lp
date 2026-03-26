@@ -43,21 +43,21 @@
 
         layer_2 {
             bindings = <
-&trans  &trans                &trans           &trans           &trans           &trans                              &trans              &trans               &trans          &trans             &trans           &trans
-&trans  &kp BACKSPACE         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DOT                          &kp RS(P)           &kp RS(N)            &kp UP_ARROW    &trans             &kp DEL          &trans
-&trans  &kp NON_US_BACKSLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &trans        &trans  &trans              &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp K_MUTE       &trans
-&trans  &kp KP_NUMBER_0       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS  &trans        &trans  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
-&trans  &trans                &trans           &trans           &kp KP_ASTERISK  &kp KP_SLASH  &kp KP_EQUAL  &trans  &trans              &trans               &trans          &trans             &trans           &trans
+&trans  &trans                &trans           &trans           &trans           &trans                              &trans            &trans              &trans               &trans             &trans           &trans
+&trans  &kp BACKSPACE         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DOT                          &kp RC(UP_ARROW)  &kp RS(P)           &kp UP_ARROW         &kp RS(N)          &kp DEL          &trans
+&trans  &kp NON_US_BACKSLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &trans        &trans  &msc SCRL_UP      &kp LEFT_ARROW      &kp DOWN_ARROW       &kp RIGHT_ARROW    &kp K_MUTE       &trans
+&trans  &kp KP_NUMBER_0       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS  &trans        &trans  &msc SCRL_DOWN    &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
+&trans  &trans                &trans           &trans           &kp KP_ASTERISK  &kp KP_SLASH  &kp KP_EQUAL  &trans  &trans            &trans              &trans               &trans             &trans           &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &trans     &trans     &trans              &trans               &trans                             &trans      &trans      &trans  &trans  &trans      &trans
-&trans  &trans     &trans     &trans              &trans               &kp LG(BACKSPACE)                  &bt BT_NXT  &bt BT_PRV  &trans  &trans  &trans      &trans
-&trans  &trans     &kp LG(S)  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans             &trans  &trans  &trans      &trans      &trans  &trans  &trans      &trans
-&trans  &kp LG(Z)  &trans     &trans              &trans               &trans             &trans  &trans  &trans      &trans      &trans  &trans  &trans      &trans
-&trans  &trans     &trans     &trans              &trans               &trans             &trans  &trans  &trans      &trans      &trans  &trans  &bt BT_CLR  &trans
+&trans  &trans     &trans     &trans  &trans          &trans                  &trans        &trans        &trans        &trans        &trans      &trans
+&trans  &trans     &trans     &trans  &msc SCRL_UP    &trans                  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans      &trans
+&trans  &trans     &kp LG(S)  &trans  &msc SCRL_DOWN  &trans  &trans  &trans  &bt BT_PRV    &bt BT_NXT    &trans        &trans        &trans      &trans
+&trans  &kp LG(Z)  &trans     &trans  &trans          &trans  &trans  &trans  &trans        &trans        &trans        &trans        &trans      &trans
+&trans  &trans     &trans     &trans  &trans          &trans  &trans  &trans  &trans        &trans        &trans        &trans        &bt BT_CLR  &trans
             >;
         };
     };
