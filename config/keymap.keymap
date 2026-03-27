@@ -41,7 +41,7 @@
 &trans  &trans     &trans    &trans    &trans       &trans                                                 &trans       &trans  &trans     &trans   &trans     &trans
 &trans  &kp Q      &kp W     &kp E     &kp R        &kp T                                                  &kp Y        &kp U   &kp I      &kp O    &kp P      &trans
 &trans  &kp A      &kp S     &kp D     &kp F        &kp G        &trans                     &trans         &kp H        &kp J   &lt 3 K    &lt 1 L  &kp MINUS  &trans
-&trans  &kp Z      &kp X     &kp C     &kp V        &kp B        &kp ESCAPE                 &kp DEL        &kp N        &kp M   &kp COMMA  &kp DOT  &kp SLASH  &trans
+&trans  &kp Z      &kp X     &kp C     &kp V        &kp B        &msc SCRL_DOWN             &msc SCRL_UP   &kp N        &kp M   &kp COMMA  &kp DOT  &kp SLASH  &trans
 &trans  &kp LCTRL  &kp LGUI  &kp LALT  &lt 3 LANG2  &lt 1 SPACE  &mt LEFT_SHIFT LANGUAGE_1  &kp BACKSPACE  &lt 2 ENTER  &trans  &trans     &kp F7   &kp F10    &trans
             >;
         };
@@ -59,8 +59,8 @@
         layer_2 {
             bindings = <
 &trans  &trans                &trans           &trans           &trans           &trans                              &trans            &trans              &trans               &trans             &trans           &trans
-&trans  &kp BACKSPACE         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DOT                          &kp RC(UP_ARROW)  &kp RS(P)           &kp UP_ARROW         &kp RS(N)          &kp DEL          &trans
-&trans  &kp NON_US_BACKSLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &trans        &trans  &msc SCRL_UP      &kp LEFT_ARROW      &kp DOWN_ARROW       &kp RIGHT_ARROW    &kp K_MUTE       &trans
+&trans  &kp BACKSPACE         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DOT                          &kp RC(UP_ARROW)  &kp RS(P)           &kp UP_ARROW         &kp RS(N)          &kp K_MUTE       &trans
+&trans  &kp NON_US_BACKSLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &trans        &trans  &msc SCRL_UP      &kp LEFT_ARROW      &kp DOWN_ARROW       &kp RIGHT_ARROW    &kp DELETE       &trans
 &trans  &kp KP_NUMBER_0       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS  &trans        &trans  &msc SCRL_DOWN    &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
 &trans  &trans                &trans           &trans           &kp KP_ASTERISK  &kp KP_SLASH  &kp KP_EQUAL  &trans  &trans            &trans              &trans               &trans             &trans           &trans
             >;
