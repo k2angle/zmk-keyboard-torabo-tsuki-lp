@@ -38,11 +38,11 @@
 
         layer_0 {
             bindings = <
-&trans  &trans     &trans    &trans    &trans               &trans                                                 &trans       &trans  &trans     &trans   &trans     &trans
-&trans  &kp Q      &kp W     &kp E     &mt K_SCROLL_UP R    &mt LEFT_ARROW T                                       &kp Y        &kp U   &kp I      &kp O    &kp P      &trans
-&trans  &kp A      &kp S     &kp D     &mt K_SCROLL_DOWN F  &mt RIGHT_ARROW G  &trans               &trans         &kp H        &kp J   &lt 3 K    &lt 1 L  &kp MINUS  &trans
-&trans  &kp Z      &kp X     &kp C     &kp V                &kp B              &msc SCRL_DOWN       &msc SCRL_UP   &kp N        &kp M   &kp COMMA  &kp DOT  &kp SLASH  &trans
-&trans  &kp LCTRL  &kp LGUI  &kp LALT  &kp LEFT_WIN         &lt 1 SPACE        &mt LEFT_SHIFT CAPS  &kp BACKSPACE  &lt 2 ENTER  &trans  &trans     &kp F7   &kp F10    &trans
+&trans  &trans     &trans    &trans    &trans                  &trans                                           &trans       &trans  &trans     &trans   &trans     &trans
+&trans  &kp Q      &kp W     &kp E     &mt C_AC_SCROLL_UP R    &kp T                                            &kp Y        &kp U   &kp I      &kp O    &kp P      &trans
+&trans  &kp A      &kp S     &kp D     &mt C_AC_SCROLL_DOWN F  &kp G        &trans               &trans         &kp H        &kp J   &lt 3 K    &lt 1 L  &kp MINUS  &trans
+&trans  &kp Z      &kp X     &kp C     &kp V                   &kp B        &msc SCRL_DOWN       &msc SCRL_UP   &kp N        &kp M   &kp COMMA  &kp DOT  &kp SLASH  &trans
+&trans  &kp LCTRL  &kp LGUI  &kp LALT  &kp LEFT_WIN            &lt 1 SPACE  &mt LEFT_SHIFT CAPS  &kp BACKSPACE  &lt 2 ENTER  &trans  &trans     &kp F7   &kp F10    &trans
             >;
         };
 
