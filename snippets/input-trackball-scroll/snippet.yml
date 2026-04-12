@@ -1,1 +1,3 @@
-
+name: input-trackball-scroll
+append:
+  EXTRA_DTC_OVERLAY_FILE: input-trackball-scroll.overlay
