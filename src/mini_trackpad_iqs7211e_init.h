@@ -33,7 +33,7 @@
 
 /* Report Rates and Timing */
 /* Memory Map Position 0x28 - 0x32 */
-#define ACTIVE_MODE_REPORT_RATE_0                0x5A
+#define ACTIVE_MODE_REPORT_RATE_0                0x0F
 #define ACTIVE_MODE_REPORT_RATE_1                0x00
 #define IDLE_TOUCH_MODE_REPORT_RATE_0            0x32
 #define IDLE_TOUCH_MODE_REPORT_RATE_1            0x00
