@@ -6,9 +6,11 @@ manifest:
       url-base: https://github.com/sekigon-gonnoc
     - name: prospector
       url-base: https://github.com/t-ogura
+    - name: cormoran
+      url-base: https://github.com/cormoran
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: cormoran
       revision: v0.3-branch+dya
       import: app/west.yml
     - name: zmk-component-bmp-boost
