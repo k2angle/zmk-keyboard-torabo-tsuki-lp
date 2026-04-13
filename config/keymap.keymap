@@ -41,7 +41,7 @@
 &trans  &trans     &trans        &trans        &trans          &trans                                           &trans       &trans  &trans     &trans   &trans     &trans
 &trans  &kp Q      &kp W         &kp E         &kp R           &kp T                                            &kp Y        &kp U   &kp I      &kp O    &kp P      &trans
 &trans  &kp A      &kp S         &kp D         &lt 1 F         &kp G        &trans               &trans         &kp H        &kp J   &lt 3 K    &lt 1 L  &kp MINUS  &trans
-&trans  &kp Z      &kp X         &kp C         &kp V           &kp B        &mt LEFT_ALT ESC     &kp DELETE     &kp N        &kp M   &kp COMMA  &kp DOT  &kp SLASH  &trans
+&trans  &kp Z      &kp X         &kp C         &kp V           &kp B        &lt 3 ESC            &kp DELETE     &kp N        &kp M   &kp COMMA  &kp DOT  &kp SLASH  &trans
 &trans  &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &msc SCRL_DOWN  &lt 1 SPACE  &mt LEFT_SHIFT CAPS  &kp BACKSPACE  &lt 2 ENTER  &trans  &trans     &kp F7   &kp F10    &trans
             >;
         };
