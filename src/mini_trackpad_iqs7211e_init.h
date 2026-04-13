@@ -145,7 +145,7 @@
 #define SWIPE_Y_DISTANCE_1                       0x01
 #define SWIPE_X_CONS_DIST_0                      0x64
 #define SWIPE_X_CONS_DIST_1                      0x00
-#define SWIPE_Y_CONS_DIST_0                      0xC8
+#define SWIPE_Y_CONS_DIST_0                      0xF0
 #define SWIPE_Y_CONS_DIST_1                      0x00
 #define SWIPE_ANGLE                              0x17
 #define PALM_THRESHOLD                           0x1E
