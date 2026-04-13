@@ -115,7 +115,7 @@
 #define XY_DYNAMIC_FILTER_TOP_SPEED_1            0x00
 #define XY_DYNAMIC_FILTER_BOTTOM_BETA            0x07
 #define XY_DYNAMIC_FILTER_STATIC_FILTER_BETA     0x80
-#define STATIONARY_TOUCH_MOV_THRESHOLD           0x14
+#define STATIONARY_TOUCH_MOV_THRESHOLD           0x28
 #define FINGER_SPLIT_FACTOR                      0x00 // 0x00 = 1 finger mode
 #define X_TRIM_VALUE                             0x14
 #define Y_TRIM_VALUE                             0x14
