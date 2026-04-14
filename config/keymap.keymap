@@ -48,11 +48,11 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                 &trans                    &trans              &trans               &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                 &kp RC(RG(RS(NUMBER_4)))  &kp RC(LEFT_ARROW)  &kp RC(RIGHT_ARROW)  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                 &kp RG(R)                 &mkp MB1            &mkp MB2             &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RG(W)              &kp RG(C)                 &kp RG(V)           &kp RA(RG(V))        &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RG(RIGHT_BRACKET)  &kp RG(LEFT_BRACKET)      &trans              &trans               &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                 &trans                    &trans              &trans               &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                 &kp RC(RG(RS(NUMBER_4)))  &kp RC(LEFT_ARROW)  &kp RC(RIGHT_ARROW)  &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                 &kp RG(R)                 &mkp MB1            &mkp MB2             &trans  &kp RG(W)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RG(W)              &kp RG(C)                 &kp RG(V)           &kp RA(RG(V))        &trans  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RG(RIGHT_BRACKET)  &kp RG(LEFT_BRACKET)      &trans              &trans               &trans  &trans     &trans
             >;
         };
 
