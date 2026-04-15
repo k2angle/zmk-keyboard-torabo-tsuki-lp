@@ -109,12 +109,12 @@
 #define X_RESOLUTION_1                           0x00 // 0x00E1 = 225
 #define Y_RESOLUTION_0                           0x2C //
 #define Y_RESOLUTION_1                           0x01 // 0x012C = 300
-#define XY_DYNAMIC_FILTER_BOTTOM_SPEED_0         0x06
+#define XY_DYNAMIC_FILTER_BOTTOM_SPEED_0         0x30
 #define XY_DYNAMIC_FILTER_BOTTOM_SPEED_1         0x00
-#define XY_DYNAMIC_FILTER_TOP_SPEED_0            0x7C
+#define XY_DYNAMIC_FILTER_TOP_SPEED_0            0xF0
 #define XY_DYNAMIC_FILTER_TOP_SPEED_1            0x00
-#define XY_DYNAMIC_FILTER_BOTTOM_BETA            0x07
-#define XY_DYNAMIC_FILTER_STATIC_FILTER_BETA     0x80
+#define XY_DYNAMIC_FILTER_BOTTOM_BETA            0x02
+#define XY_DYNAMIC_FILTER_STATIC_FILTER_BETA     0x20
 #define STATIONARY_TOUCH_MOV_THRESHOLD           0x48
 #define FINGER_SPLIT_FACTOR                      0x00 // 0x00 = 1 finger mode
 #define X_TRIM_VALUE                             0x14
