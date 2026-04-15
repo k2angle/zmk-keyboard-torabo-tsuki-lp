@@ -115,7 +115,7 @@
 #define XY_DYNAMIC_FILTER_TOP_SPEED_1            0x00
 #define XY_DYNAMIC_FILTER_BOTTOM_BETA            0x07
 #define XY_DYNAMIC_FILTER_STATIC_FILTER_BETA     0x80
-#define STATIONARY_TOUCH_MOV_THRESHOLD           0x3C
+#define STATIONARY_TOUCH_MOV_THRESHOLD           0x48
 #define FINGER_SPLIT_FACTOR                      0x00 // 0x00 = 1 finger mode
 #define X_TRIM_VALUE                             0x14
 #define Y_TRIM_VALUE                             0x14
@@ -141,8 +141,8 @@
 #define SWIPE_TIME_1                             0x00
 #define SWIPE_X_DISTANCE_0                       0xC8
 #define SWIPE_X_DISTANCE_1                       0x00
-#define SWIPE_Y_DISTANCE_0                       0xC2
-#define SWIPE_Y_DISTANCE_1                       0x00
+#define SWIPE_Y_DISTANCE_0                       0xF4
+#define SWIPE_Y_DISTANCE_1                       0x01
 #define SWIPE_X_CONS_DIST_0                      0x64
 #define SWIPE_X_CONS_DIST_1                      0x00
 #define SWIPE_Y_CONS_DIST_0                      0xF0
