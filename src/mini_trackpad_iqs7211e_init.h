@@ -74,8 +74,8 @@
 
 /* Thresholds and Debounce Settings */
 /* Memory Map Position 0x38 - 0x3A */
-#define TRACKPAD_TOUCH_SET_THRESHOLD             0x20
-#define TRACKPAD_TOUCH_CLEAR_THRESHOLD           0x18
+#define TRACKPAD_TOUCH_SET_THRESHOLD             0x28
+#define TRACKPAD_TOUCH_CLEAR_THRESHOLD           0x1E
 #define ALP_THRESHOLD_0                          0x08
 #define ALP_THRESHOLD_1                          0x00
 #define ALP_SET_DEBOUNCE                         0x04
@@ -141,12 +141,12 @@
 #define SWIPE_TIME_1                             0x00
 #define SWIPE_X_DISTANCE_0                       0xC8
 #define SWIPE_X_DISTANCE_1                       0x00
-#define SWIPE_Y_DISTANCE_0                       0xF4
-#define SWIPE_Y_DISTANCE_1                       0x01
+#define SWIPE_Y_DISTANCE_0                       0x26
+#define SWIPE_Y_DISTANCE_1                       0x02
 #define SWIPE_X_CONS_DIST_0                      0x64
 #define SWIPE_X_CONS_DIST_1                      0x00
-#define SWIPE_Y_CONS_DIST_0                      0xF0
-#define SWIPE_Y_CONS_DIST_1                      0x00
+#define SWIPE_Y_CONS_DIST_0                      0x2C
+#define SWIPE_Y_CONS_DIST_1                      0x01
 #define SWIPE_ANGLE                              0x17
 #define PALM_THRESHOLD                           0x1E
 
