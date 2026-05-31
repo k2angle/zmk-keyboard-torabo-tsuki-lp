@@ -17,8 +17,8 @@
             key-positions = <58 44>;
         };
 
-        click1 {
-            bindings = <&mkp MB1>;
+        click3 {
+            bindings = <&mkp MB3>;
             key-positions = <33 34>;
         };
 
