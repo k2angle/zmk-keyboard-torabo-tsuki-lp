@@ -2,18 +2,6 @@
 #include <zephyr/dt-bindings/gpio/nordic-nrf-gpio.h>
 #include <zephyr/dt-bindings/i2c/i2c.h>
 
-#if defined(CONFIG_ZMK_SPLIT_ROLE_CENTRAL)
-
-/ {
-    hires_dial: hires_dial {
-        status = "okay";
-        compatible = "sekigon,remote-hires-dial";
-        counts-per-revolution = <1275>;
-    };
-};
-
-#else
-
 &i2c0 {
     status = "okay";
     compatible = "nordic,nrf-twim";
@@ -41,5 +29,4 @@
     };
 };
 
-#endif
 
