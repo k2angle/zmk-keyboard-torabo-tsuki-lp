@@ -33,5 +33,8 @@ manifest:
       remote: prospector
       revision: v2.0.0
       path: modules/prospector-zmk-module
-self:
+    - name: zmk-driver-hires-dial
+      remote: sekigon-gonnoc
+      revision: master
+  self:
     path: config
