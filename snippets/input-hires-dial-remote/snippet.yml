@@ -1,0 +1,5 @@
+name: input-hires-dial-remote
+append:
+  EXTRA_DTC_OVERLAY_FILE: input-hires-dial-remote.overlay
+  EXTRA_CONF_FILE: input-hires-dial-remote.conf
+  
