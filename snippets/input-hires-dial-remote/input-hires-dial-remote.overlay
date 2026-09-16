@@ -1,0 +1,13 @@
+/ {
+    hires_dial: hires_dial {
+        status = "okay";
+        compatible = "sekigon,remote-hires-dial";
+        counts-per-revolution = <1275>;
+    };
+
+    hires_dial_scroll_listener {
+        compatible = "zmk,input-listener";
+        status = "okay";
+        device = <&hires_dial_scroll>;
+    };
+};
