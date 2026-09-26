@@ -3,7 +3,7 @@
 #include <zephyr/dt-bindings/i2c/i2c.h>
 #include <dt-bindings/zmk/keys.h>
 
-/{
+/ {
     roller_push_kscan: roller_push_kscan {
         compatible = "zmk,kscan-gpio-direct";
 
