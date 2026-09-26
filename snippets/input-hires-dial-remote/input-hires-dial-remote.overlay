@@ -10,4 +10,10 @@
         status = "okay";
         device = <&hires_dial_scroll>;
     };
+
+    hires_dial_hscroll_listener {
+        compatible = "zmk,input-listener";
+        status = "okay";
+        device = <&hires_dial_hscroll>;
+    };
 };
