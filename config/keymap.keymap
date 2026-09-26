@@ -125,8 +125,7 @@
 };
 
 &{/keymap/layer_3} {
-    sensor-bindings =
-        <&hires_dial_encoder C_VOLUME_UP C_VOLUME_DOWN>;
+    sensor-bindings = <&hires_dial_hscroll 10 1>;
 };
 
 &{/keymap/layer_4} {
