@@ -112,6 +112,10 @@
     sensor = <&hires_dial>;
 };
 
+&hires_dial_hscroll {
+    sensor = <&hires_dial>;
+};
+
 &{/keymap/layer_0} {
     sensor-bindings = <&hires_dial_scroll 15 1>;
 };
