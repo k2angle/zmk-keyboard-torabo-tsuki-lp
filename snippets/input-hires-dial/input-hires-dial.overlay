@@ -2,6 +2,18 @@
 #include <zephyr/dt-bindings/gpio/nordic-nrf-gpio.h>
 #include <zephyr/dt-bindings/i2c/i2c.h>
 
+/ {
+    hires_dial_push_kscan: hires_dial_push_kscan {
+        compatible = "zmk,kscan-gpio-direct";
+
+        input-gpios =
+            <&gpio0 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+
+        debounce-press-ms = <5>;
+        debounce-release-ms = <5>;
+    };
+};
+
 &i2c0 {
     status = "okay";
     compatible = "nordic,nrf-twim";
