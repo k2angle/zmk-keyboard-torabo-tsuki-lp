@@ -30,3 +30,13 @@
 };
 
 
+{
+    roller_push: roller_push {
+        compatible = "gpio-keys";
+
+        roller_push_key: roller_push_key {
+            gpios = <&gpio0 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+            label = "Roller Push";
+        };
+    };
+};
