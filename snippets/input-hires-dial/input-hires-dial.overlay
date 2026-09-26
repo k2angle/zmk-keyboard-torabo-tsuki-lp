@@ -1,11 +1,8 @@
 #include <zephyr/dt-bindings/gpio/gpio.h>
 #include <zephyr/dt-bindings/gpio/nordic-nrf-gpio.h>
 #include <zephyr/dt-bindings/i2c/i2c.h>
+
 / {
-    /*
-     * Hi-Res Dial PUSH
-     * Module PUSH -> P0.19
-     */
     hires_dial_push_kscan: hires_dial_push_kscan {
         compatible = "zmk,kscan-gpio-direct";
 
@@ -16,13 +13,6 @@
         debounce-release-ms = <5>;
     };
 
-    /*
-     * 通常キーマトリクスとDial PUSHを合成
-     *
-     * PUSHを row 3 / col 6 に割り当てる。
-     * physical_layout_lでは、この座標が
-     * key-position 44。
-     */
     hires_dial_kscan: hires_dial_kscan {
         compatible = "zmk,kscan-composite";
         rows = <5>;
@@ -42,6 +32,10 @@
     chosen {
         zmk,kscan = &hires_dial_kscan;
     };
+};
+
+&physical_layout_l {
+    kscan = <&hires_dial_kscan>;
 };
 
 &i2c0 {
