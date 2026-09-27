@@ -114,6 +114,6 @@
 
 &{/keymap/layer_2} { sensor-bindings = <&hires_dial_scroll 15 1>; };
 
-&{/keymap/layer_3} { sensor-bindings = <&hires_dial_hscroll 15 1>; };
+&{/keymap/layer_3} { sensor-bindings = <&hires_dial_hscroll 15 -1>; };
 
 &{/keymap/layer_4} { sensor-bindings = <&hires_dial_scroll 15 1>; };
