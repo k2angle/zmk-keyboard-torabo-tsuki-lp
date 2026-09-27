@@ -1,3 +1,6 @@
+#include <input/processors.dtsi>
+#include <dt-bindings/zmk/input_transform.h>
+
 / {
     hires_dial: hires_dial {
         status = "okay";
@@ -15,5 +18,9 @@
         compatible = "zmk,input-listener";
         status = "okay";
         device = <&hires_dial_hscroll>;
+
+        input-processors = <
+            &zip_scroll_transform INPUT_TRANSFORM_X_INVERT
+        >;
     };
 };
