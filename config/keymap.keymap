@@ -44,11 +44,11 @@
 
         layer_0 {
             bindings = <
-&trans  &trans     &trans        &trans        &trans    &trans                                            &trans       &trans        &trans     &trans   &trans     &trans
-&trans  &kp Q      &kp W         &kp E         &kp R     &kp T                                             &kp Y        &kp U         &kp I      &kp O    &kp P      &trans
-&trans  &kp A      &kp S         &kp D         &lt 4 F   &kp G        &trans                &trans         &kp H        &mt RSHIFT J  &lt 4 K    &lt 1 L  &kp MINUS  &trans
-&trans  &kp Z      &kp X         &kp C         &kp V     &kp B        &kp ESC               &kp F7         &kp N        &kp M         &kp COMMA  &kp DOT  &kp SLASH  &trans
-&trans  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &mkp MB1  &lt 2 SPACE  &mt LEFT_SHIFT LANG1  &kp BACKSPACE  &lt 3 ENTER  &trans        &trans     &kp F10  &kp DEL    &trans
+&trans  &trans     &trans        &trans        &trans    &trans                                            &trans       &trans        &trans     &trans             &trans           &trans
+&trans  &kp Q      &kp W         &kp E         &kp R     &kp T                                             &kp Y        &kp U         &kp I      &kp O              &kp P            &trans
+&trans  &kp A      &kp S         &kp D         &lt 4 F   &kp G        &trans                &trans         &kp H        &mt RSHIFT J  &lt 4 K    &lt 1 L            &kp MINUS        &trans
+&trans  &kp Z      &kp X         &kp C         &kp V     &kp B        &kp ESC               &kp F7         &kp N        &kp M         &kp COMMA  &kp DOT            &kp SLASH        &trans
+&trans  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &mkp MB1  &lt 2 SPACE  &mt LEFT_SHIFT LANG1  &kp BACKSPACE  &lt 3 ENTER  &trans        &trans     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
             >;
         };
 
@@ -64,11 +64,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans        &trans        &trans         &trans                &trans                                 &trans        &trans          &trans            &trans         &trans             &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4          &kp N5                                 &kp NUMBER_6  &kp N7          &kp N8            &kp N9         &kp N0             &trans
-&trans  &kp EXCL      &kp AT        &kp HASH       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans  &trans        &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp SEMICOLON  &kp COLON          &trans
-&trans  &kp DOLLAR    &kp PERCENT   &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans        &kp LESS_THAN   &kp GREATER_THAN  &kp SQT        &kp DOUBLE_QUOTES  &trans
-&trans  &trans        &trans        &trans         &trans                &trans                 &trans  &trans  &trans        &trans          &trans            &kp TILDE      &kp GRAVE          &trans
+&trans  &trans        &trans        &trans         &trans                &trans                                  &trans        &trans          &trans            &trans         &trans             &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4          &kp N5                                  &kp NUMBER_6  &kp N7          &kp N8            &kp N9         &kp N0             &trans
+&trans  &kp EXCL      &kp AT        &kp HASH       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans   &trans        &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp SEMICOLON  &kp COLON          &trans
+&trans  &kp DOLLAR    &kp PERCENT   &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans   &trans        &kp LESS_THAN   &kp GREATER_THAN  &kp SQT        &kp DOUBLE_QUOTES  &trans
+&trans  &trans        &trans        &trans         &trans                &trans                 &trans  &kp DEL  &trans        &trans          &trans            &kp TILDE      &kp GRAVE          &trans
             >;
         };
 
@@ -76,8 +76,8 @@
             bindings = <
 &trans  &trans                &trans           &trans           &trans           &trans                              &trans            &trans              &trans               &trans             &trans           &trans
 &trans  &kp BACKSPACE         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DOT                          &kp RC(UP_ARROW)  &kp RS(P)           &kp UP_ARROW         &kp RS(N)          &kp K_MUTE       &trans
-&trans  &kp NON_US_BACKSLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &trans        &trans  &msc SCRL_UP      &kp LEFT_ARROW      &kp DOWN_ARROW       &kp RIGHT_ARROW    &kp DELETE       &trans
-&trans  &kp KP_NUMBER_0       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS  &kp LG(R)     &trans  &msc SCRL_DOWN    &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
+&trans  &kp NON_US_BACKSLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS   &trans        &trans  &kp F7            &kp LEFT_ARROW      &kp DOWN_ARROW       &kp RIGHT_ARROW    &kp DELETE       &trans
+&trans  &kp KP_NUMBER_0       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS  &kp LG(R)     &trans  &kp F10           &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
 &trans  &trans                &trans           &trans           &kp KP_ASTERISK  &kp KP_SLASH  &kp KP_EQUAL  &trans  &trans            &trans              &trans               &trans             &trans           &trans
             >;
         };
